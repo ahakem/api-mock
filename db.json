@@ -7,7 +7,7 @@
       "comment": "string",
       "start_offset": 8.052963,
       "end_offset": 87.69645,
-      "source": "User",
+      "source": "User"
     },
     {
       "id":2,
@@ -57,5 +57,6 @@
         "icon": "person_talking"
       }
     ]
+  
   }
 }
