@@ -35,7 +35,7 @@
       "description": "When the student is clearly found talking with someone about the exam's contents",
       "severity": "breach",
       "active": true,
-      "icon": "play"
+      "icon": "flag"
     },
     {
       "id": 2,
@@ -51,7 +51,7 @@
       "description": "When the student is clearly found talking with someone about the exam's contents",
       "severity": "event",
       "active": true,
-      "icon": "person_talking"
+      "icon": "alarm"
     }
     
   ]
