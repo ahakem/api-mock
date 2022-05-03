@@ -1,0 +1,58 @@
+{
+  "incidents": [
+    {
+      "type": "breachDictionaryItem",
+      "breachDictionaryId": 1,
+      "comment": "string",
+      "start_offset": 8.052963,
+      "end_offset": 87.69645,
+      "source": "User",
+    },
+    {
+      "type": "breachDictionaryItem",
+      "breachDictionaryId": 2,
+      "comment": "string",
+      "start_offset": 8.052963,
+      "end_offset": 87.69645,
+      "source": "User"
+    },
+    {
+      "type": "breachDictionaryItem",
+      "breachDictionaryId": 3,
+      "comment": "string",
+      "start_offset": 8.052963,
+      "end_offset": 87.69645,
+      "source": "User"
+    }
+  ],
+  "breachDictionary": {
+    "name": null,
+    "version": null,
+    "breachDictionaryItems": [
+      {
+        "id": 1,
+        "category": "Student was talking with someone else",
+        "description": "When the student is clearly found talking with someone about the exam's contents",
+        "severity": "breach",
+        "active": true,
+        "icon": "play"
+      },
+      {
+        "id": 2,
+        "category": "Student was talking with someone else",
+        "description": "When the student is clearly found talking with someone about the exam's contents",
+        "severity": "risk",
+        "active": true,
+        "icon": "edit"
+      },
+      {
+        "id": 3,
+        "category": "Student was talking with someone else",
+        "description": "When the student is clearly found talking with someone about the exam's contents",
+        "severity": "event",
+        "active": true,
+        "icon": "person_talking"
+      }
+    ]
+  }
+}
