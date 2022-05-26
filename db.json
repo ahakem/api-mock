@@ -39,19 +39,27 @@
     },
     {
       "id": 2,
-      "category": "Student was talking with someone else",
-      "description": "When the student is clearly found talking with someone about the exam's contents",
+      "category": "Exam taker mumbling",
+      "description": "Exam taker mumbling",
       "severity": "risk",
       "active": true,
       "icon": "edit"
     },
     {
       "id": 3,
-      "category": "Student was talking with someone else",
+      "category": "Student looking to phone",
       "description": "When the student is clearly found talking with someone about the exam's contents",
       "severity": "event",
       "active": true,
       "icon": "alarm"
+    },
+    {
+      "id": 4,
+      "category": "Someone entered the room",
+      "description": "Someone entered the room",
+      "severity": "event",
+      "active": false,
+      "icon": "flag"
     }
     
   ]
