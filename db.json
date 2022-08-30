@@ -1,67 +1,247 @@
 {
   "incidents": [
     {
-      "id":1,
-      "type": "breachDictionaryItem",
-      "breachDictionaryId": 1,
-      "comment": "string",
-      "start_offset": 8.052963,
-      "end_offset": 87.69645,
-      "source": "User"
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a6",
+      "start": 332,
+      "end": 336,
+      "from": "ml"
     },
     {
-      "id":2,
-      "type": "breachDictionaryItem",
-      "breachDictionaryId": 2,
-      "comment": "string",
-      "start_offset": 8.052963,
-      "end_offset": 87.69645,
-      "source": "User"
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a6",
+      "start": 345,
+      "end": 351,
+      "from": "ml"
     },
     {
-      "id":3,
-      "type": "breachDictionaryItem",
-      "breachDictionaryId": 3,
-      "comment": "string",
-      "start_offset": 8.052963,
-      "end_offset": 87.69645,
-      "source": "User"
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a6",
+      "start": 355,
+      "end": 358,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "end": 2,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 13,
+      "end": 15,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 17,
+      "end": 20,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 30,
+      "end": 34,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 52,
+      "end": 54,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 56,
+      "end": 61,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 63,
+      "end": 65,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 67,
+      "end": 69,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 104,
+      "end": 114,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 151,
+      "end": 154,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 204,
+      "end": 208,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 216,
+      "end": 218,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 224,
+      "end": 229,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 245,
+      "end": 248,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 295,
+      "end": 300,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 321,
+      "end": 323,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 332,
+      "end": 334,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 342,
+      "end": 345,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 354,
+      "end": 357,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a0",
+      "start": 359,
+      "end": 361,
+      "from": "ml"
+    },
+    {
+      "dictionaryItemID": "630c8ce8d4713b0f8b2238a4",
+      "start": 128,
+      "end": 130,
+      "from": "ml"
     }
   ],
-  "breachDictionaryItems":[
+  "breachDictionaryItems": [
     {
-      "id": 1,
-      "category": "Student was talking with someone else",
-      "description": "When the student is clearly found talking with someone about the exam's contents",
-      "severity": "breach",
+      "id": "630c8ce8d4713b0f8b2238a0",
+      "categoryKey": "too_much_random_gaze",
+      "categoryLabel": "Too much random gaze",
+      "description": "The test-taker is having too much random gaze off screen",
       "active": true,
-      "icon": "flag"
+      "severity": 1,
+      "client": "PE"
     },
     {
-      "id": 2,
-      "category": "Exam taker mumbling",
-      "description": "Exam taker mumbling",
-      "severity": "risk",
-      "active": true,
-      "icon": "edit"
+      "id": "630c8ce8d4713b0f8b2238a1",
+      "categoryKey": "airpods_used",
+      "categoryLabel": "Airpods/ Earphones used",
+      "description": "The test-taker is wearing earphones/ headphones/ airpods",
+      "severity": 3,
+      "client": "PE"
     },
     {
-      "id": 3,
-      "category": "Student looking to phone",
-      "description": "When the student is clearly found talking with someone about the exam's contents",
-      "severity": "event",
+      "id": "630c8ce8d4713b0f8b2238a2",
+      "categoryKey": "candidate_hand_gesture",
+      "categoryLabel": "Making gestures with hand",
+      "description": "The test-taker is making hand gestures to someone nearby",
       "active": true,
-      "icon": "alarm"
+      "severity": 2,
+      "client": "PE"
     },
     {
-      "id": 4,
-      "category": "Someone entered the room",
-      "description": "Someone entered the room",
-      "severity": "event",
-      "active": false,
-      "icon": "flag"
+      "id": "630c8ce8d4713b0f8b2238a3",
+      "categoryKey": "candidate_referring_book",
+      "categoryLabel": "Referring from a book or a paper",
+      "description": "The test-taker is referring from a book or a paper",
+      "active": true,
+      "severity": 2,
+      "client": "PE"
+    },
+    {
+      "id": "630c8ce8d4713b0f8b2238a4",
+      "categoryKey": "candidate_left_seat",
+      "categoryLabel": "Left their seat",
+      "description": "The test-taker is missing from their designated seat",
+      "active": true,
+      "severity": 3,
+      "client": "PE"
+    },
+    {
+      "id": "630c8ce8d4713b0f8b2238a5",
+      "categoryKey": "camera_blocked",
+      "categoryLabel": "Blocked camera",
+      "description": "The test-taker has blocked the camera",
+      "active": true,
+      "severity": 3,
+      "client": "PE"
+    },
+    {
+      "id": "630c8ce8d4713b0f8b2238a6",
+      "categoryKey": "background_people_speaking",
+      "categoryLabel": "Background people speaking",
+      "description": "Someone is speaking in the background",
+      "active": true,
+      "severity": 3,
+      "client": "PE"
+    },
+    {
+      "id": "630c8ce8d4713b0f8b2238a7",
+      "categoryKey": "calculator_used",
+      "categoryLabel": "Using calculator",
+      "description": "The test-taker is using a calculator",
+      "active": true,
+      "severity": 3,
+      "client": "PE"
+    },
+    {
+      "id": "630c8ce8d4713b0f8b2238a8",
+      "categoryKey": "candidate_referring_book",
+      "categoryLabel": "Referring from a book or a paper",
+      "description": "The test-taker is referring from a book or a paper",
+      "active": true,
+      "severity": 2,
+      "client": "PE"
+    },
+    {
+      "id": "630c8ce8d4713b0f8b2238a9",
+      "categoryKey": "reading_from_mobile",
+      "categoryLabel": "Reading from the phone",
+      "description": "The test-taker is reading from a phone",
+      "active": true,
+      "severity": 3,
+      "client": "PE"
+    },
+    {
+      "id": "630c8ce8d4713b0f8b2238aa",
+      "categoryKey": "candidate_using_whiteboard",
+      "categoryLabel": "Using whiteboard",
+      "description": "The test-taker is using a whiteboard",
+      "active": true,
+      "severity": 2,
+      "client": "PE"
     }
-    
   ]
-  
 }
